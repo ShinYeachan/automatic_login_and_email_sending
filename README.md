@@ -46,12 +46,6 @@ pip install openpyxl
 
 </details>
 
-### ** 해당 엑셀 파일 내용 변경**
-
- **엑셀 파일에서 샘플 이메일들을 변경**:
-    - `sample_email_list.xlsx`에서 첫번째 컬럼에 있는 샘플 이메일들을 원하는 이메일로 변경
-
-
 ### 코드 구조 설명
 
 1. **네이버 로그인**:
@@ -71,11 +65,15 @@ pip install openpyxl
 
 ### 사용법
 
-1. **네이버 아이디 설정**:
+1. **주피터 노트북 설치**:
+    - 아래 영상을 참고해서 Visual Studio Code에 Jypyter Notebook을 설치해줍니다.
+    - https://www.youtube.com/watch?v=1tKPqQmXM98&t=78s 
+
+2. **네이버 아이디 설정**:
     - 21번째, 28번째 줄에 있는 pyperclip.copy("sample_id"), pyperclip.copy("sample_pw")에서
         sample_id, sample_pw를 사용할 네이버 아이디로 변경합니다
 
-2. **엑셀 파일에서 샘플 이메일들을 변경**:
+3. **엑셀 파일에서 샘플 이메일들을 변경**:
     - `sample_email_list.xlsx`에서 첫번째 컬럼에 있는 샘플 이메일들을 원하는 이메일로 변경합니다.
 
 # 에러 해결 방법: 화면이 갑자기 꺼지거나 네이버 캡챠때문에 더 진행이 안 될 경우
