@@ -1,0 +1,17 @@
+chromedrivermanager==0.0.1
+ipython==8.16.1
+openpyxl==3.1.2
+PyAutoGUI==0.9.54
+setuptools==68.2.0
+wheel==0.41.2
+selenium==4.13.0
+openpyxl==3.1.2
+jupyter==1.0.0
+by==0.0.4
+
+
+
+
+
+
+
