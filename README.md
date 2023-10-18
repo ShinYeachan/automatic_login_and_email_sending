@@ -8,7 +8,26 @@
 
 ## ** 설치 및 환경 설정**
 
-### ** 해당 필요한 파이썬 패키지들 설치**
+### 사용된 라이브러리
+
+- **Selenium**: 웹 브라우저 자동화
+```
+pip install selenium
+```
+- **PyAutoGUI**: GUI 자동화
+```
+pip install PyAutoGUI
+```
+- **Pyperclip**: 클립보드 사용
+```
+pip install pyperclip
+```
+- **Openpyxl**: Excel 파일 작업
+```
+pip install openpyxl
+```
+
+### ** 기타 필요한 파이썬 패키지들 설치**
 
     
     pip install -r requirements.txt
@@ -20,22 +39,20 @@
 |---------------------|-------------------------------------------------------------------------------|
 | chromedrivermanager | 도구로써, 웹 브라우저를 자동화하기 위해 필요한 ChromeDriver의 설치와 관리를 담당합니다.                       |
 | ipython             | 대화형 Python 쉘로써, 코드 실행, 디버깅, 테스팅에 용이합니다. Jupyter notebook에서의 커널로도 사용됩니다.       |
-| openpyxl            | Excel 2010 xlsx/xlsm/xltx/xltm 파일을 읽고 쓸 수 있는 Python 라이브러리입니다.                 |
 | PyAutoGUI           | 그래픽 사용자 인터페이스(GUI) 자동화를 위한 Python 모듈로, 마우스와 키보드 명령을 프로그래밍 방식으로 제어할 수 있게 해줍니다. |
 | setuptools          | Python 패키지의 빌드, 배포를 도와주는 도구입니다. `pip`를 통해 패키지를 설치할 때 기본적으로 사용됩니다.             |
 | wheel               | Python 배포 패키지를 위한 바이너리 패키지 형식입니다. `pip`를 통해 패키지를 빠르게 설치할 수 있게 도와줍니다.          |
-| selenium            | 웹 브라우저 자동화를 위한 도구로써, 웹 애플리케이션의 테스팅을 위한 다양한 도구와 라이브러리를 제공합니다.                  |
 | jupyter             | 웹 기반의 대화형 계산 환경을 제공하는 프로젝트로, Jupyter notebook, JupyterLab 등의 애플리케이션을 포함합니다.   |
 
 </details>
 
- **엑셀 파일에서 메일 정보 읽기**:
-    - `sample_email_list.xlsx`에서 첫번째 컬럼에 있는 샘플 email들을 원하는 email로 변경
+### ** 해당 엑셀 파일 내용 변경**
+
+ **엑셀 파일에서 샘플 이메일들을 변경**:
+    - `sample_email_list.xlsx`에서 첫번째 컬럼에 있는 샘플 이메일들을 원하는 이메일로 변경
 
 
-### ** 해당 엑셀 파일 **
-
-### 스크립트 단계
+### 코드 구조 설명
 
 1. **네이버 로그인**:
     - 브라우저를 최대화하고 네이버 로그인 페이지로 이동
